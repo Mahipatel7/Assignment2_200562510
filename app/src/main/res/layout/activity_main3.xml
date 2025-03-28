@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Back Button to navigate to Movie Search Screen -->
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Back" />
+
+    <!-- Movie Poster Image -->
+    <ImageView
+        android:id="@+id/moviePoster"
+        android:layout_width="381dp"
+        android:layout_height="222dp"
+        android:src="@drawable/ic_launcher_foreground" /> <!-- Placeholder image -->
+
+    <!-- Movie Title -->
+    <TextView
+        android:id="@+id/movieTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Movie Title"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
+
+    <!-- Movie Year -->
+    <TextView
+        android:id="@+id/movieYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Year: 2024"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Movie Genre -->
+    <TextView
+        android:id="@+id/movieGenre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Genre: Action, Thriller"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Movie Description -->
+    <TextView
+        android:id="@+id/movieDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Movie description goes here..."
+        android:textSize="14sp"
+        android:layout_marginBottom="16dp" />
+
+</LinearLayout>

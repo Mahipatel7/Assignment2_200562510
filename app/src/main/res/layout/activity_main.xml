@@ -1,0 +1,25 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/img1">
+
+    <!-- Center-aligned Button -->
+    <Button
+        android:id="@+id/centerButton"
+        android:layout_width="179dp"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="521dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="129dp"
+        android:minWidth="168dp"
+        android:text="Start Here!" />  <!-- Ensuring a minimum width -->
+    <!-- Adding padding for better touch target -->
+
+</RelativeLayout>
